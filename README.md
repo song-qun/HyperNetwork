@@ -21,7 +21,7 @@ Download [MNIST dataset](http://yann.lecun.com/exdb/mnist/) and store it under f
     /raw
       ...
 ```
-      
+
 ### notMNIST
       
 Download [notMNIST dataset](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html) and store it under data_nm/. Organize the data by following hierachy.
@@ -73,4 +73,4 @@ python3 train_hypernet.py --cuda --dataset kul
 
 ## Generate experiment results in the paper
 
-experiments.py
+python3 experiments.py --cuda
