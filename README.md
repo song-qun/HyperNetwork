@@ -49,6 +49,7 @@ Download [GTSRB dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/Febru
 
 Download [KUL BelgiumTS dataset](https://btsd.ethz.ch/shareddata/). Preprocess the downloaded data with KUL_preprocess.py. Orgainize the data by following hierachy.
 
+```
 /KUL
   test_data.npy
   test_labels.npy
@@ -62,7 +63,7 @@ python3 train_hypernet.py --cuda --dataset mnist
 python3 train_hypernet.py --cuda --dataset gtsrb
 
 python3 train_hypernet.py --cuda --dataset kul
-
+```
 ## Generate experiment results in the paper
 
 experiments.py
