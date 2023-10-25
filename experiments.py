@@ -700,7 +700,7 @@ def test_outlier_deepMTD_kul(args):
         classifier.load_state_dict(torch.load('saved_models/kul-single-mednet_'+str(i)+'.pth', map_location=args.device))
         model_list.append(classifier) 
         
-    '''plot ROC''''    
+    '''plot ROC'''
     for ts in range(50,101,5):
         Ts = ts/100
 
